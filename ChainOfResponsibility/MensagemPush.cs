@@ -2,10 +2,6 @@
 {
     public class MensagemPush : IEnvio
     {
-        public MensagemPush()
-        {
-        }
-
         public IEnvio ProximoEnvio { get ; set; }
 
         public IEnvio CriarEnvio(string tipo)

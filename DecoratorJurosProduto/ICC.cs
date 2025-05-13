@@ -5,6 +5,7 @@
         public ICC()
         {
         }
+
         public ICC(ImpostoProduto outroImposto) : base(outroImposto)
         {
         }

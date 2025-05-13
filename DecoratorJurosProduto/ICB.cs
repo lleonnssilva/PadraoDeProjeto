@@ -5,6 +5,7 @@
         public ICB()
         {
         }
+
         public ICB(ImpostoProduto outroImposto) : base(outroImposto)
         {
         }

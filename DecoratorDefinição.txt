@@ -1,0 +1,17 @@
+-Atribu responsabilidades dicionais a um objeto de form dinâmica sem afetar o comportamento de outros objetos da mesma classe
+-Fornece uma alterntiva flexivel a herança para estender uma funcionlidade
+-Permite estender(decorar) de forma dinâmica as caracteristicas de uma classe 
+
+Aplicação:
+
+-Quando houver a necessidade de anexar ou remover o comportamento de apenas alguns instâncias de uma classe em vez de todas as 
+onstâncias da classe.
+-Quando a estesão através de herança for impraticavel(explosão de classes)
+-Quando temos uma classe que não pode ser herdada por estarmos erdando de uma outra classe.
+-Queremos adicionar responsabilidades a objetos individuais de forma diâmica e transparente sem afetar outros objetos.
+-Quando não podemos usar herança
+
+Vantagens:
+-
+
+

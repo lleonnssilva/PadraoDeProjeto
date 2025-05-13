@@ -1,0 +1,23 @@
+Um padrão comportamental
+
+Definição:
+-Separa a regra de negocio de variações de algoritmo que possam existir
+-Define uma familia de algoritmos encapsulando cada um deles e tornando intercambiaveis
+-Permite que o algoritmo varie independente dos clientes
+-Usa composição para permitir a troca de algoritmo em tempo de execução
+-Permite a criação de varios algoritmos sem a necessidade de condicionais
+
+Usabilidade:
+-quando tiver variantes de um mesmo algoritmo e precisa trocar em tempo de execução
+-você precisa isolaar  regra  negócio do lgoritmo que deve ser aplicado o princípio de responsabilidade unica
+-você percebe que esta usando condicionais para trocar o resultado finl de um algoritmo
+
+Bom:
+-Troca heraça por composição
+-Separa a regra de negócio ed algoritmos complexos
+-Aplica os princípios de aberto/fechado e da responsabilidade única
+
+Ruim:
+-Pode ser complexo criar toda uma hierarquia de classes para aplicar novos algoritmos
+-Você pode obter o mesmo resultao com funções caso a lingugem de progrmação permita
+-O codigo cliente precisa conhecer as estratégias que vai usar

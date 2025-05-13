@@ -7,10 +7,10 @@ using StrategyEnvioMensagem;
 
 Console.WriteLine("Inicando o programa");
 var mensagens = new List<Mensagem>();
-mensagens.Add(new Mensagem("leoguaruleo@gmail.com", "Mensagem de email 1"));
-mensagens.Add(new Mensagem("leo2025@gmail.com", "Mensagem de email 2"));
-mensagens.Add(new Mensagem("leonsilva@gmail.com", "Mensagem de email 3"));
+mensagens.Add(new Mensagem("leoguaruleo@gmail.com", "Mensagem 1"));
+mensagens.Add(new Mensagem("leo2025@gmail.com", "Mensagem  2"));
+mensagens.Add(new Mensagem("leonsilva@gmail.com", "Mensagem 3"));
 
 var envioMensagem = new Envio();
-envioMensagem.EnviarMensagem(mensagens, "email");
+envioMensagem.EnviarMensagem(mensagens, new MensagemPush());
 Console.ReadKey();
