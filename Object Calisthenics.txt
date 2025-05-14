@@ -1,0 +1,20 @@
+Object Calisthenics (9 Regras) 
+Jeff Bay
+
+1-Apenas um nivel de identação por método
+2-Nunca use else
+	- Falhar logo
+	- Retorno anteciado
+3-Encapsule todos os tipos primitivos e strings
+4-Envolva coleções em classes
+5-Use apenas um ponto por linha(Lei de Demeter)
+6-Não abrevie nomes de variáveis e métodos
+7-Mantenha todas as entidaes pequens(max 50 linhas)
+8-Nenhuma classe com mais de duas varáveis de instância
+9-Evite metodos getters e setters
+	- Fere o encasulamento
+	- Separação de comportamento da entidade
+	- Dominio e classes anêmicas(DDD)
+	- Fere o principio Tell,Don't Ask (Mande não pergunte)
+	- Problema de Semântica - Linguagem Ubíqua(DDD)
+	- Objetos com estados inconsistentes

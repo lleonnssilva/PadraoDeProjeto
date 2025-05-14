@@ -3,16 +3,16 @@
     //Invoker
     public class Garcom
     {
-        private Pedido pedido;
+        private Pedido _pedido;
 
         public Garcom(Pedido pedido)
         {
-            this.pedido = pedido;
+            this._pedido = pedido;
         }
 
         public void Executar()
         {
-            pedido.Execute();
+            _pedido.Execute();
         }
     }
 }

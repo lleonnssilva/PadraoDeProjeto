@@ -3,23 +3,24 @@
     //Concrete Command
     public class Pedido : ICommand
     {
+        private Chef _chef;
+        private string _acao { get; set; }
         public Pedido(Chef chef, string acao)
         {
-            Chef = chef;
-            Acao = acao;
+            this._chef = chef;
+            this._acao = acao;
         }
 
-        private Chef Chef { get; set; }
-        private string Acao { get; set; }
+       
         public void Execute()
         {
-            if (Acao == "prato")
+            if (this._acao == "prato")
             {
-                Chef.PreparandoPrato();
+                _chef.PreparandoPrato();
             }
             else
             {
-                Chef.PreparandoSobremesa();
+                _chef.PreparandoSobremesa();
             }
               
            
